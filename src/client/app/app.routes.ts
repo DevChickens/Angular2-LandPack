@@ -1,11 +1,9 @@
 import { provideRouter, RouterConfig } from '@angular/router';
 
-import { AboutRoutes } from './+about/index';
-import { HomeRoutes } from './+home/index';
+import { LandpackRoutes } from './landpack/landpack.index';
 
 const routes: RouterConfig = [
-  ...HomeRoutes,
-  ...AboutRoutes
+  ...LandpackRoutes
 ];
 
 export const APP_ROUTER_PROVIDERS = [
